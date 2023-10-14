@@ -1,8 +1,12 @@
 # 💫 About Me:
 🔭 I’m currently working on Lugetech, npm packages and various Nextjs Projects
+
 🌱 I’m currently learning Nextjs 13, Postgres and nginx
+
 👯 I’m looking to collaborate on react/databases/api/windows apps/c#/webapps
+
 💬 Ask me about LUGETECH
+
 📫 How to reach me:kentaylorappdev@gmail.com
 
 # 💻 Tech Stack:
