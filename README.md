@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Lugetech, npm packages and various Nextjs Projects
+🔭 I’m currently working on Lugetech, npm packages, Golang and various Nextjs Projects
 
 🌱 I’m currently learning Nextjs 13, Postgres and nginx
 
