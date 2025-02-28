@@ -1,9 +1,7 @@
 # 💫 About Me:
-🔭 I’m currently working on Lugetech, npm packages, Golang and various Nextjs Projects
+🔭 I’m currently working on Lugetech.
 
-🌱 I’m currently learning Nextjs 13, Postgres and nginx
-
-👯 I’m looking to collaborate on react/databases/api/windows apps/c#/webapps
+👯 I’m looking to collaborate.
 
 💬 Ask me about LUGETECH
 
