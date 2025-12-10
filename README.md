@@ -7,10 +7,9 @@ Obsessed with writing clean, fast, and scalable systems in **Go**
 
 🔭 Currently leading backend architecture at **Lugetech**  
 🚀 Specialized in **Go microservices**, high-performance APIs, PocketBase backends, and cloud-native apps  
-👯 Always looking to collaborate on **Go**, **Fiber**, **Gin**, **PocketBase**, or distributed systems projects  
-💬 Ask me about **Go, Fiber, Gin, gRPC, SQLC, PocketBase, concurrency patterns, AWS/Azure**  
-📫 Reach me: **kentaylorappdev@gmail.com**  
-⚡ I write Go backends that scale like they’re supposed to  
+👯 Always looking to collaborate. 
+💬 Ask me about **LUGETECH**, Go, PocketBase. 
+📫 Reach me: **kentaylorappdev@gmail.com**   
 🐥 On my third attempt learning **Rust**... it's going great 😅🦀 (send help)
 
 <br/>
