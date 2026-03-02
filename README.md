@@ -27,7 +27,7 @@ My current highlighted work — from Windows utilities and process tools to Go a
 - **[Switch-Power-profile](https://github.com/ktappdev/Switch-Power-profile)** (C#)  
   The Automatic Power Manager for Windows 10 allows you to automatically switch to High Performance mode based on what apps you are running. If none of these apps are running, it defaults to Balanced…
 
-- **[maad-radio](https://github.com/ktappdev/maad-radio)** (TypeScript)  
+- **[www.reviewit.gy](https://reviewit.gy)** (TypeScript + go)  
   Elegantly designed website tailored for an exceptional online radio station experience. Boasting a seamless integration of a live video feed, dynamic audio stream, and an ever-updated schedule, all…
 
 - **[cicd-thing](https://github.com/ktappdev/cicd-thing)** (Go)  
