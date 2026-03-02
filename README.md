@@ -33,8 +33,8 @@ My current highlighted work — from Windows utilities and process tools to Go a
 - **[cicd-thing](https://github.com/ktappdev/cicd-thing)** (Go)  
   Automatically deploy your websites and applications when you push code to GitHub!
 
-- **[bad-words-thing](https://github.com/ktappdev/bad-words-thing)** (TypeScript)  
-  By creating this lyrics scanning app, I can save time editing for our radio station by knowing what to expect before even playing the song.
+- **[contexting](https://github.com/ktappdev/contexting)** (Go)  
+  A fast, deterministic codebase indexer that maps natural-language queries to project files. Features include real-time watch mode, semantic search with synonym caching, quality evaluation metrics (Hit@k, MRR), and health checks. Built in Go for LLM agents.
 
 - **[gitcomm](https://github.com/ktappdev/gitcomm)** (Go)  
   automate git commits
@@ -43,6 +43,8 @@ My current highlighted work — from Windows utilities and process tools to Go a
   Elite process terminator with style - Kill processes on any port with smooth animations and a dark hitman-themed TUI
 
 <br/>
+
+And many more...
 
 
 <!-- Made with too much coffee and occasional Rust panic -->
