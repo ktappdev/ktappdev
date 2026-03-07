@@ -1,17 +1,17 @@
 <img align="right" src="https://res.cloudinary.com/dhglzlaqf/image/upload/v1765332106/myassets/IMG_2689_tzchix.webp" width="200" alt="Ken Taylor" />
 
-# Hi there, I'm Ken Taylor 👋 **[kentaylor.dev](https://kentaylor.dev)**
+# Hi there, I'm Ken Taylor  **[kentaylor.dev](https://kentaylor.dev)**
 
 **Go Backend Engineer • Full-Stack Developer**  
-Obsessed with writing clean, fast, and scalable systems in **Go** 🐹
+Obsessed with writing clean, fast, and scalable systems in **Go**
 
-🔭 Currently leading backend architecture at **Lugetech**  
-🚀 Focused on Go microservices, high-performance APIs, **PocketBase** backends, and cloud-native apps  
-🌱 Currently (third time’s the charm) getting comfortable with **Rust** 🦀
+Currently leading backend architecture at **Lugetech**  
+Focused on Go microservices, high-performance APIs, **PocketBase** backends, and cloud-native apps  
+Currently (third time’s the charm) getting comfortable with **Rust**
 
-👯 Open to interesting collaborations  
-💬 Ask me about **LUGETECH**, Go, PocketBase, automation tools, or full-stack radio/web projects  
-📫 **kentaylorappdev@gmail.com**
+Open to interesting collaborations  
+Ask me about **LUGETECH**, Go, PocketBase, automation tools, or full-stack radio/web projects  
+**kentaylorappdev@gmail.com**
 
 <br/>
 
@@ -20,7 +20,7 @@ Obsessed with writing clean, fast, and scalable systems in **Go** 🐹
 
 <br/>
 
-## 📦 Pinned Projects
+## Pinned Projects
 
 My current highlighted work — from Windows utilities and process tools to Go automation, CI/CD, and radio/web apps.
 
@@ -41,6 +41,9 @@ My current highlighted work — from Windows utilities and process tools to Go a
 
 - **[hitman](https://github.com/ktappdev/hitman)** (Go)  
   Elite process terminator with style - Kill processes on any port with smooth animations and a dark hitman-themed TUI
+
+- **[SSH THING](https://github.com/ktappdev/ssh-thing)** (Rust)  
+  SSH Thing is a cross-platform desktop SSH client with all the features I wish I had
 
 <br/>
 
