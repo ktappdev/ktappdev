@@ -1,53 +1,118 @@
 <img align="right" src="https://res.cloudinary.com/dhglzlaqf/image/upload/v1765332106/myassets/IMG_2689_tzchix.webp" width="200" alt="Ken Taylor" />
 
-# Hi there, I'm Ken Taylor  **[kentaylor.dev](https://kentaylor.dev)**
+# Ken Taylor
 
-**Go Backend Engineer • Full-Stack Developer**  
-Obsessed with writing clean, fast, and scalable systems in **Go**
+### Go Backend Engineer · Full-Stack Developer · 🇬🇾 Guyana
 
-Currently leading backend architecture at **Lugetech**  
-Focused on Go microservices, high-performance APIs, **PocketBase** backends, and cloud-native apps  
-Currently (third time’s the charm) getting comfortable with **Rust**
+**Backend architecture lead at [LugeTech](https://lUGETECH.com)**  
+Building fast, scalable systems in Go — with detours into Rust and anything interesting.
 
-Open to interesting collaborations  
-Ask me about **LUGETECH**, Go, PocketBase, automation tools, or full-stack radio/web projects  
-**kentaylorappdev@gmail.com**
+🌐 [kentaylor.dev](https://kentaylor.dev) · 📧 kentaylorappdev@gmail.com · 🐦 [@ktappdev](https://twitter.com/ktappdev)
 
-<br/>
+---
 
-### Core tech I work with daily
-**Go** · **PocketBase** · **Rust** · **TypeScript** / **React** / **Next.js** · **PostgreSQL** · **Docker** · **AWS** / **Vercel** · **C#**
+## 🛠 Tech Stack
 
-<br/>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PocketBase](https://img.shields.io/badge/PocketBase-B8DBE8?style=for-the-badge&logo=sqlite&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-## Pinned Projects
+---
 
-My current highlighted work — from Windows utilities and process tools to Go automation, CI/CD, and radio/web apps.
+## 📊 GitHub Stats
 
-- **[Switch-Power-profile](https://github.com/ktappdev/Switch-Power-profile)** (C#)  
-  The Automatic Power Manager for Windows 10 allows you to automatically switch to High Performance mode based on what apps you are running. If none of these apps are running, it defaults to Balanced…
+<div align="center">
 
-- **[www.reviewit.gy](https://reviewit.gy)** (TypeScript + go)  
-  Elegantly designed website tailored for an exceptional online radio station experience. Boasting a seamless integration of a live video feed, dynamic audio stream, and an ever-updated schedule, all…
+![Stats](https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
 
-- **[cicd-thing](https://github.com/ktappdev/cicd-thing)** (Go)  
-  Automatically deploy your websites and applications when you push code to GitHub!
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000)
 
-- **[contexting](https://github.com/ktappdev/contexting)** (Go)  
-  A fast, deterministic codebase indexer that maps natural-language queries to project files. Features include real-time watch mode, semantic search with synonym caching, quality evaluation metrics (Hit@k, MRR), and health checks. Built in Go for LLM agents.
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000)
 
-- **[gitcomm](https://github.com/ktappdev/gitcomm)** (Go)  
-  automate git commits
+</div>
 
-- **[hitman](https://github.com/ktappdev/hitman)** (Go)  
-  Elite process terminator with style - Kill processes on any port with smooth animations and a dark hitman-themed TUI
+---
 
-- **[SSH THING](https://github.com/ktappdev/ssh-thing)** (Rust)  
-  SSH Thing is a cross-platform desktop SSH client with all the features I wish I had
+## 🔨 What I'm Working On
 
-<br/>
+- **[SSH Thing](https://github.com/ktappdev/ssh-thing)** — Cross-platform desktop SSH client (Rust + Tauri 2.x)
+- **[contexting](https://github.com/ktappdev/contexting)** — Fast deterministic codebase indexer for LLM agents (Go)
+- **[fromai](https://github.com/ktappdev/fromai)** — AI-powered coding task manager (SvelteKit + PocketBase)
+- **[pi-windsurf](https://github.com/ktappdev/pi-windsurf)** — Windsurf/Cognition models in Pi coding agent ⭐4
+- **Learning Rust** — third time's the charm 🦀
 
-And many more...
+---
 
+## 📌 Pinned Projects
 
-<!-- Made with too much coffee and occasional Rust panic -->
+<table>
+<tr>
+<td width="50%">
+
+### [Switch-Power-profile](https://github.com/ktappdev/Switch-Power-profile) ⭐2
+Automatic Windows 10 power manager — switches to High Performance based on running apps.
+`C#` `Windows` `Automation`
+
+</td>
+<td width="50%">
+
+### [www.reviewit.gy](https://reviewit.gy) ⭐1
+Online radio station with live video, dynamic audio stream, and real-time schedule.
+`TypeScript` `Go` `Radio`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [cicd-thing](https://github.com/ktappdev/cicd-thing)
+Auto-deploy websites and apps on push to GitHub. Simple CI/CD that just works.
+`Go` `CI/CD` `Deployment`
+
+</td>
+<td width="50%">
+
+### [contexting](https://github.com/ktappdev/contexting)
+Fast, deterministic codebase indexer mapping natural-language queries to project files. Built for LLM agents.
+`Go` `Code Search` `LLM`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [hitman](https://github.com/ktappdev/hitman)
+Elite process terminator — kill processes on any port with smooth animations and a dark hitman-themed TUI.
+`Go` `TUI` `Developer Tools`
+
+</td>
+<td width="50%">
+
+### [SSH Thing](https://github.com/ktappdev/ssh-thing)
+Cross-platform desktop SSH client. Lightweight, fast, focused. All the features I wished SSH clients had.
+`Rust` `Tauri` `Desktop`
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+![Activity](https://github-readme-activity-graph.vercel.app/graph?username=ktappdev&theme=tokyonight&hide_border=true&bg_color=00000000&area=true)
+
+</div>
+
+---
+
+<div align="center">
+
+*Built with too much coffee and occasional Rust panic* ☕🦀
+
+</div>
