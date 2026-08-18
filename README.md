@@ -4,10 +4,14 @@
 
 ### Go Backend Engineer · Full-Stack Developer · 🇬🇾 Guyana
 
-**Backend architecture lead at [LugeTech](https://lUGETECH.com)**  
+**Backend architecture lead at [LugeTech](https://lugetech.com)**  
 Building fast, scalable systems in Go — with detours into Rust and anything interesting.
 
-🌐 [kentaylor.dev](https://kentaylor.dev) · 📧 kentaylorappdev@gmail.com · 🐦 [@ktappdev](https://twitter.com/ktappdev)
+[![Website](https://img.shields.io/badge/Website-kentaylor.dev-0B0B0B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kentaylor.dev)
+[![Email](https://img.shields.io/badge/Email-kentaylorappdev@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kentaylorappdev@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-@ktappdev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ktappdev)
+[![GitHub](https://img.shields.io/badge/GitHub-ktappdev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ktappdev)
+[![Followers](https://img.shields.io/github/followers/ktappdev?style=for-the-badge&logo=github&label=Follow)](https://github.com/ktappdev?tab=followers)
 
 ---
 
@@ -39,7 +43,7 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 - **[SSH Thing](https://github.com/ktappdev/ssh-thing)** — Cross-platform desktop SSH client (Rust + Tauri 2.x)
 - **[contexting](https://github.com/ktappdev/contexting)** — Fast deterministic codebase indexer for LLM agents (Go)
 - **[fromai](https://github.com/ktappdev/fromai)** — AI-powered coding task manager (SvelteKit + PocketBase)
-- **[pi-windsurf](https://github.com/ktappdev/pi-windsurf)** — Windsurf/Cognition models in Pi coding agent ⭐4
+- **[pi-windsurf](https://github.com/ktappdev/pi-windsurf)** — Windsurf/Cognition models in Pi coding agent
 - **[Lyricut](https://lyricut.com)** — Lyrics safety scanner for radio. Flags explicit content in song lyrics, generates compliance reports. Built for broadcasters, DJs, producers.
 - **[Reviewit](https://reviewit.com)** — Business review platform. Reviews you can trust, everywhere Google and AI can read.
 - **Learning Rust** — third time's the charm 🦀
@@ -52,14 +56,16 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 <tr>
 <td width="50%">
 
-### [Switch-Power-profile](https://github.com/ktappdev/Switch-Power-profile) ⭐2
+### [Switch-Power-profile](https://github.com/ktappdev/Switch-Power-profile)
+
+[![Stars](https://img.shields.io/github/stars/ktappdev/Switch-Power-profile?style=for-the-badge&logo=github)](https://github.com/ktappdev/Switch-Power-profile/stargazers)
 Automatic Windows 10 power manager — switches to High Performance based on running apps.
 `C#` `Windows` `Automation`
 
 </td>
 <td width="50%">
 
-### [www.reviewit.gy](https://reviewit.gy) ⭐1
+### [www.reviewit.gy](https://reviewit.gy)
 Online radio station with live video, dynamic audio stream, and real-time schedule.
 `TypeScript` `Go` `Radio`
 
