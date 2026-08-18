@@ -30,7 +30,7 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000)
+![Streak](https://streak-stats.demolab.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000)
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000)
 
@@ -45,7 +45,7 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 - **[fromai](https://github.com/ktappdev/fromai)** — AI-powered coding task manager (SvelteKit + PocketBase)
 - **[pi-windsurf](https://github.com/ktappdev/pi-windsurf)** — Windsurf/Cognition models in Pi coding agent ⭐4
 - **[Lyricut](https://lyricut.com)** — Lyrics safety scanner for radio. Flags explicit content in song lyrics, generates compliance reports. Built for broadcasters, DJs, producers.
-- **[Reviewit](https://reviewit.gy)** — Business review platform. Reviews you can trust, everywhere Google and AI can read.
+- **[Reviewit](https://reviewit.com)** — Business review platform. Reviews you can trust, everywhere Google and AI can read.
 - **Learning Rust** — third time's the charm 🦀
 
 ---
