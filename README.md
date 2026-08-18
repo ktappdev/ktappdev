@@ -102,13 +102,6 @@ Cross-platform desktop SSH client. Lightweight, fast, focused. All the features 
 </tr>
 </table>
 
----
-
-<div align="center">
-
-![Activity](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/activity.svg)
-
-</div>
 
 ---
 

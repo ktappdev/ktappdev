@@ -1,7 +1,7 @@
 name: Update Stats Cards
 on:
   schedule:
-    - cron: "13 */6 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
   push:
     paths:
@@ -23,18 +23,30 @@ jobs:
           mkdir -p assets
           fetch() {
             local url="$1" out="$2"
+            local tmp="$out.tmp"
             for i in $(seq 1 6); do
-              curl -fsSL --max-time 30 "$url" -o "$out" 2>/dev/null
-              if head -c 200 "$out" | grep -qi "<svg"; then echo "cached $out"; return 0; fi
+              rm -f "$tmp"
+              curl -fsSL --max-time 30 "$url" -o "$tmp" 2>/dev/null
+              # Only accept files that are real contribution graphs:
+              # - valid <svg
+              # - size > 4KB (activity error card is ~600B; stats/langs ~6-12KB)
+              # - NOT containing the known error string from activity graph
+              if head -c 800 "$tmp" | grep -qi "<svg" \
+                 && ! grep -qi "Can't fetch any contribution" "$tmp" 2>/dev/null \
+                 && [ "$(wc -c < "$tmp")" -gt 4096 ]; then
+                mv "$tmp" "$out"
+                echo "cached $out ($(wc -c < "$out")B)"
+                return 0
+              fi
               sleep 20
             done
-            echo "skip $out (unreachable)"
+            rm -f "$tmp"
+            echo "skip $out (unreachable or invalid — kept existing)"
             return 0
           }
           fetch "https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" assets/stats.svg
           fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" assets/langs.svg
           fetch "https://streak-stats.demolab.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000" assets/streak.svg
-          fetch "https://github-readme-activity-graph.vercel.app/graph?username=ktappdev&theme=tokyonight&hide_border=true&bg_color=00000000&area=true" assets/activity.svg
 
       - name: Commit cached assets
         run: |
