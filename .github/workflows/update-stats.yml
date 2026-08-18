@@ -1,0 +1,43 @@
+name: Update Stats Cards
+on:
+  schedule:
+    - cron: "13 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-stats.yml"
+      - README.md
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and cache stats SVGs
+        run: |
+          mkdir -p assets
+          fetch() {
+            local url="$1" out="$2"
+            for i in $(seq 1 8); do
+              curl -fsSL "$url" -o "$out"
+              if head -c 200 "$out" | grep -qi "<svg"; then return 0; fi
+              sleep 15
+            done
+            return 1
+          }
+          fetch "https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" assets/stats.svg
+          fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" assets/langs.svg
+          fetch "https://streak-stats.demolab.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000" assets/streak.svg
+          fetch "https://github-readme-activity-graph.vercel.app/graph?username=ktappdev&theme=tokyonight&hide_border=true&bg_color=00000000&area=true" assets/activity.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "chore: refresh cached stats cards"
+          git push

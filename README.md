@@ -28,11 +28,11 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000)
+![Stats](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/stats.svg)
 
-![Streak](https://streak-stats.demolab.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000)
+![Streak](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/streak.svg)
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000)
+![Languages](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/langs.svg)
 
 </div>
 
@@ -107,7 +107,7 @@ Cross-platform desktop SSH client. Lightweight, fast, focused. All the features 
 
 <div align="center">
 
-![Activity](https://github-readme-activity-graph.vercel.app/graph?username=ktappdev&theme=tokyonight&hide_border=true&bg_color=00000000&area=true)
+![Activity](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/activity.svg)
 
 </div>
 
