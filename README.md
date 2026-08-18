@@ -28,11 +28,7 @@ Building fast, scalable systems in Go — with detours into Rust and anything in
 
 <div align="center">
 
-![Stats](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/stats.svg)
-
 ![Streak](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/streak.svg)
-
-![Languages](https://raw.githubusercontent.com/ktappdev/ktappdev/main/assets/langs.svg)
 
 </div>
 

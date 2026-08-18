@@ -17,24 +17,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch and cache stats SVGs
+      - name: Fetch and cache stats SVGs (best-effort)
         run: |
+          set +e
           mkdir -p assets
           fetch() {
             local url="$1" out="$2"
-            for i in $(seq 1 8); do
-              curl -fsSL "$url" -o "$out"
-              if head -c 200 "$out" | grep -qi "<svg"; then return 0; fi
-              sleep 15
+            for i in $(seq 1 6); do
+              curl -fsSL --max-time 30 "$url" -o "$out" 2>/dev/null
+              if head -c 200 "$out" | grep -qi "<svg"; then echo "cached $out"; return 0; fi
+              sleep 20
             done
-            return 1
+            echo "skip $out (unreachable)"
+            return 0
           }
           fetch "https://github-readme-stats.vercel.app/api?username=ktappdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" assets/stats.svg
           fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=ktappdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" assets/langs.svg
           fetch "https://streak-stats.demolab.com/?user=ktappdev&theme=tokyonight&hide_border=true&background=00000000" assets/streak.svg
           fetch "https://github-readme-activity-graph.vercel.app/graph?username=ktappdev&theme=tokyonight&hide_border=true&bg_color=00000000&area=true" assets/activity.svg
 
-      - name: Commit if changed
+      - name: Commit cached assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
