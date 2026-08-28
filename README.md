@@ -4,7 +4,7 @@
 
 ### Go Backend Engineer · Full-Stack Developer · 🇬🇾 Guyana
 
-**Backend architecture lead at [LugeTech](https://lugetech.com)**  
+**Founder and COO at [LugeTech](https://lugetech.com)**  
 Building fast, scalable systems in Go — with detours into Rust and anything interesting.
 
 > 🚀 **Now building [Reviewit.gy](https://reviewit.gy)** — Business review platform. Reviews you can trust, everywhere Google and AI can read.
