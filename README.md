@@ -4,7 +4,7 @@
 
 > I make practical software for the Caribbean, and tools that help developers move faster.
 
-Self-taught software engineer based in Georgetown. Co-founder and COO of [LugeTech](https://lugetech.com), and creator of [ReviewIt.gy](https://reviewit.gy). I work across web products, backend systems, desktop tools, and self-hosted infrastructure.
+Self-taught software engineer based in Georgetown. Co-founder and COO of [LugeTech](https://lugetech.com), and creator of [ReviewIt.gy](https://reviewit.gy) - [Lugescan.com](https://lugescan.com) and others. I work across web products, backend systems, desktop tools, and self-hosted infrastructure.
 
 [Website](https://kentaylor.dev) · [GitHub](https://github.com/ktappdev) · [X / Twitter](https://x.com/ktappdev) · [LinkedIn](https://gy.linkedin.com/in/ken-taylor-16006280) · [Email](mailto:kentaylorappdev@gmail.com)
 
